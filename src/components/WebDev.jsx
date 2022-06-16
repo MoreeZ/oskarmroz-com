@@ -201,7 +201,7 @@ class WebDev extends Component {
                 <br /> <br /> I used primarily React for this website.
               </div>
               <a
-                href="https://info.lunatechnologysociety.pl"
+                href="https://luna-technology-society.web.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
