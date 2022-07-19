@@ -4,6 +4,14 @@ import * as ScrollMagic from "scrollmagic";
 import { TimelineMax, TweenMax } from "gsap";
 import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 import ToTopButton from "./ToTopButton";
+import LaVista from "../assets/la-vista.jpg";
+import RiverPeople from "../assets/river-people.jpg";
+import Luna from "../assets/luna.jpg";
+import Wolfcaps from '../assets/wolfcaps.jpg';
+import APM from '../assets/apm.jpg';
+import CompCom from '../assets/compcom.jpg';
+import Fishing from '../assets/fishing.jpg';
+import Discover from '../assets/discover.jpg';
 
 class WebDev extends Component {
   state = { initializeScene: true };
@@ -183,11 +191,12 @@ class WebDev extends Component {
             strokeWidth="3"
           />
         </svg>
+        {/* LUNA ====================================================== */}
         <div className="each-project p-luna">
           <div className="ep-in">
             <img
               className="each-image"
-              src="https://i.ibb.co/h7hQFyL/lunaor.jpg"
+              src={Luna}
               alt="Comp-com"
             />
             <div className="hover-details">
@@ -210,17 +219,65 @@ class WebDev extends Component {
             </div>
           </div>
         </div>
+        {/* River people =============================================== */}
+        <div className="each-project p-luna">
+          <div className="ep-in">
+            <img
+              className="each-image"
+              src={RiverPeople}
+              alt="Comp-com"
+            />
+            <div className="hover-details">
+              <div className="project-title">River People Ecuador</div>
+              <div className="project-description">
+                Wordpress website with online booking system "Fareharbour". I also managed all their social media, and created posters and promotions. 
+              </div>
+              <a
+                href="https://riverpeopleecuador.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="project-button">View Live</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* La Vista ================================================== */}
+        <div className="each-project p-luna">
+          <div className="ep-in">
+            <img
+              className="each-image"
+              src={LaVista}
+              alt="Comp-com"
+            />
+            <div className="hover-details">
+              <div className="project-title">La Vista Hotel</div>
+              <div className="project-description">
+                The website uses Gatsby static site renderer. Every text and image is fully editable through json files. It is optimized for SEO. Custom sitemap and OpenGraph.
+              </div>
+              <a
+                href="https://lavista-demo.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="project-button">View Live</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        {/* Wolfcaps ============================================================= */}
         <div className="each-project p-wolfcaps">
           <div className="ep-in">
             <img
               className="each-image"
-              src="https://i.ibb.co/NTxgJg6/luna-5.jpg"
+              src={Wolfcaps}
               alt="Comp-com"
             />
             <div className="hover-details">
               <div className="project-title">wolfcaps</div>
               <div className="project-description">
-                Wolfcaps is a website I made for a client as a freelancer. A full online store with a working database that follows GDPR laws.
+                Wolfcaps is a website A full online store with a working database that follows GDPR laws.
                 <br /> <br /> I made the website using React Gatsby. I made the database using Mongodb. I securely set up an api for the business on an ubuntu server.
               </div>
               <a
@@ -233,23 +290,25 @@ class WebDev extends Component {
             </div>
           </div>
         </div>
+
+        {/* APM AUTOMOTIVE */}
         <div className="each-project p-apm">
           <div className="ep-in">
             <img
               className="each-image"
-              src="https://i.ibb.co/wWZM7yR/luna-3.jpg"
+              src={APM}
               alt="APM Autoserwis"
             />
             <div className="hover-details">
-              <div className="project-title">APM Autoserwis</div>
+              <div className="project-title">APM AUTOMOTIVE</div>
               <div className="project-description">
-                APM Autoserwis is a single page website, made for a Polish
+                APM AUTOMOTIVE is a single page website, made for a Polish
                 mechanics business. It is a landing page that uses Green Stock
                 Animation Platrofm (gsap) and Scroll Magic to create modern and
                 pleasing animation effects.
               </div>
               <a
-                href="https://apm-website-90d94.web.app/"
+                href="https://apm-automotive.web.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -258,6 +317,8 @@ class WebDev extends Component {
             </div>
           </div>
         </div>
+
+        
         <div className="each-project p-rap">
           <div className="ep-in">
             <img
@@ -303,7 +364,7 @@ class WebDev extends Component {
           <div className="ep-in">
             <img
               className="each-image"
-              src="https://i.ibb.co/bv6rRyy/luna-1.jpg"
+              src={CompCom}
               alt="Comp-com"
             />
             <div className="hover-details">
@@ -330,7 +391,7 @@ class WebDev extends Component {
           <div className="ep-in">
             <img
               className="each-image"
-              src="https://i.ibb.co/wLKj6bX/luna-2.jpg"
+              src={Fishing}
               alt="Comp-com"
             />
             <div className="hover-details">
@@ -359,7 +420,7 @@ class WebDev extends Component {
           <div className="ep-in">
             <img
               className="each-image"
-              src="https://i.ibb.co/RvvbQbC/luna-4.jpg"
+              src={Discover}
               alt="Comp-com"
             />
             <div className="hover-details">
