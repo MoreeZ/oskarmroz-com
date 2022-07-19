@@ -80,7 +80,7 @@ nav ul li a:hover + .nav-underline {
 nav ul li a {
   color: #141414;
   cursor: pointer;
-  -webkit-user-select: none;
+  user-select: none;
   text-decoration: none;
   font-size: 20px;
   font-family: "Lobster", "Titillium Web";
@@ -164,7 +164,7 @@ nav ul li a:focus {
 .picture img {
   height: 100%;
   border-radius: 100%;
-  -webkit-user-select: none;
+  user-select: none;
 }
 .heading {
   font-size: 3.5em;
@@ -176,7 +176,7 @@ nav ul li a:focus {
 .heading,
 .subheading {
   text-align: center;
-  -webkit-user-select: none;
+  user-select: none;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -220,16 +220,16 @@ nav ul li a:focus {
   .picture img {
     height: 100%;
     border-radius: 100%;
-    -webkit-user-select: none;
+    user-select: none;
   }
   .heading {
-    font-size: 5em;
+    font-size: 6em;
     color: #252525;
   }
   .heading,
   .subheading {
     text-align: center;
-    -webkit-user-select: none;
+    user-select: none;
   }
   .subheading {
     font-size: 1.6em;
@@ -249,7 +249,7 @@ nav ul li a:focus {
   .picture img {
     height: 100%;
     border-radius: 100%;
-    -webkit-user-select: none;
+    user-select: none;
   }
   .heading {
     font-size: 8em;
@@ -258,7 +258,7 @@ nav ul li a:focus {
   .heading,
   .subheading {
     text-align: center;
-    -webkit-user-select: none;
+    user-select: none;
   }
   .subheading {
     font-size: 2.4em;
@@ -287,7 +287,7 @@ nav ul li a:focus {
   .picture img {
     height: 100%;
     border-radius: 100%;
-    -webkit-user-select: none;
+    user-select: none;
   }
   .heading {
     font-size: 3.5em;
@@ -296,7 +296,7 @@ nav ul li a:focus {
   .heading,
   .subheading {
     text-align: center;
-    -webkit-user-select: none;
+    user-select: none;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -356,7 +356,7 @@ nav ul li a:focus {
   position: relative;
   display: flex;
   align-items: center;
-  -webkit-user-select: none;
+  user-select: none;
   cursor: pointer;
   padding: 5px;
 }
@@ -498,7 +498,7 @@ nav ul li a:focus {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  -webkit-user-select: none;
+  user-select: none;
   -ms-user-select: none;
   user-select: none;
   transition: all 0.15s linear;
@@ -564,7 +564,7 @@ nav ul li a:focus {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    -webkit-user-select: none;
+    user-select: none;
     -ms-user-select: none;
     user-select: none;
     transition: all 0.15s linear;
@@ -774,7 +774,7 @@ nav ul li a:focus {
   z-index: -2;
 }
 .design * {
-  -webkit-user-select: none;
+  user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
@@ -1072,7 +1072,7 @@ nav ul li a:focus {
   border: 0;
   border-radius: 4px;
   cursor: pointer;
-  -webkit-user-select: none;
+  user-select: none;
   -ms-user-select: none;
   user-select: none;
   transition: all 0.15s linear;
@@ -1108,7 +1108,7 @@ nav ul li a:focus {
 }
 .close-btn {
   cursor: pointer;
-  -webkit-user-select: none;
+  user-select: none;
   -ms-user-select: none;
   user-select: none;
 }

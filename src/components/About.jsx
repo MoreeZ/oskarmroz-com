@@ -213,19 +213,15 @@ class About extends Component {
         </p>
         <p className="par2">
           I have been working with user interfaces for years. React is
-          my favourite, most used and my most familiar framework. Coding in React is
-          clean, fast and satisfying.
+          my most used framework. I develop most webistes with various technologies including Gatsby and Next.js.
         </p>
         <p className="par3">
-          When I began as a Web Developer my projects appeared very primitive
-          and outdated. That was when I heard about the Daily UI challenge and
-          created an account on Dribble. Working on the challenge helped me to
-          understand existing standards and patterns in modern web development.
+          Design is another interest of mine. On my dribble you can find shots I made while working through the "Daily UI" challenge.
+          Working on Daily UI has helped me to understand modern standards and patterns in web development.
         </p>
         <p className="par4">
-          Additionally, I've learned the principals of backend web development
-          using nodejs and php. I have worked with databases such as MongoDB,
-          MySql and Firebase realtime-database.
+          I also have experience developing Mobile, Windows & Arduino applications. I am familiar all kinds of databases. Eg. MongoDB,
+          MySql and Firebase realtime-database. I can create protected and secure linux servers with API written in Nodejs, Java and python.
         </p>
 
         <Link to="/">
